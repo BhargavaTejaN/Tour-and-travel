@@ -1,0 +1,28 @@
+
+
+.pagination span{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 8px 8px rgba(1, 1, 1, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* border: 1px solid var(--secondary-color); */
+}
+
+.pagination span:hover{
+    box-shadow: 0 12px 12px rgba(1, 1, 1, 0.7);
+    transform: scale(1.05);
+}
+
+.active__page{
+    background: var(--secondary-color);
+    color : #fff !important;
+}

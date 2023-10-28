@@ -1,0 +1,38 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    color: #333;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  
